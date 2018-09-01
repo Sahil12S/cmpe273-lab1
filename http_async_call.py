@@ -1,3 +1,7 @@
+# For Asynchronous calls we are creating 3 threads
+# which will then make 3 requests without waiting for earlier one to finish
+# We wait for threads to finish before exiting.
+
 # Import necessary modules
 import threading, time
 import requests
