@@ -1,0 +1,5 @@
+Makeing 3 Synchronous requests . . .
+Sat, 01 Sep 2018 16:22:01 GMT
+Sat, 01 Sep 2018 16:22:02 GMT
+Sat, 01 Sep 2018 16:22:03 GMT
+
