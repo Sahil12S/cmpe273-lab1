@@ -1,11 +1,13 @@
-# For Asynchronous calls we are creating 3 threads
-# which will then make 3 requests without waiting for earlier one to finish
-# We wait for threads to finish before exiting.
+# For making Asynchronous HTTP requests, we are using
+# 'grequests' library.
 
 # Import necessary modules
 import grequests
 
+
 # Function to send request.
+# @param url: url where request is to be sent.
+# @param file: write header in file.
 def makeRequests(url, file):
     reqs = [
         grequests.get(url),
@@ -19,6 +21,7 @@ def makeRequests(url, file):
         file.write(result.headers['Date'] + '\n')
 
 
+# main method
 def main():
     url = 'https://webhook.site/0ce35f12-4cc7-4f73-af9f-149294648631'
     # Load output file in append mode.
@@ -28,7 +31,7 @@ def main():
     makeRequests(url, f)
 
     f.write('\n')
-    f.close()
+    f.close()   # close file
 
 
 if __name__ == '__main__':
