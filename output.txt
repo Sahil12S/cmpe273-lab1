@@ -1,10 +1,10 @@
 Makeing 3 Synchronous requests . . .
-Sat, 01 Sep 2018 16:22:01 GMT
-Sat, 01 Sep 2018 16:22:02 GMT
-Sat, 01 Sep 2018 16:22:03 GMT
+Sun, 02 Sep 2018 20:36:13 GMT
+Sun, 02 Sep 2018 20:36:14 GMT
+Sun, 02 Sep 2018 20:36:15 GMT
 
 Makeing 3 Asynchronous requests . . .
-Sat, 01 Sep 2018 16:22:52 GMT
-Sat, 01 Sep 2018 16:22:52 GMT
-Sat, 01 Sep 2018 16:22:52 GMT
+Sun, 02 Sep 2018 20:36:22 GMT
+Sun, 02 Sep 2018 20:36:21 GMT
+Sun, 02 Sep 2018 20:36:22 GMT
 
