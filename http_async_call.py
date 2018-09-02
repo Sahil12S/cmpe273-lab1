@@ -26,7 +26,7 @@ def main():
     url = 'https://webhook.site/0ce35f12-4cc7-4f73-af9f-149294648631'
     # Load output file in append mode.
     f = open('output.txt', 'a+')
-    f.write('Makeing 3 Asynchronous requests . . .\n')
+    f.write('Making 3 Asynchronous requests . . .\n')
 
     makeRequests(url, f)
 

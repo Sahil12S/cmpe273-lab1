@@ -13,7 +13,7 @@ def makeRequest(count, file):
 
 # Load file in Append mode
 f = open('output.txt', 'a+')
-f.write('Makeing 3 Synchronous requests . . .\n')
+f.write('Making 3 Synchronous requests . . .\n')
 
 makeRequest(3, f)
 
